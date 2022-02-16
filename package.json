@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/constants-float64-ln-two-pi",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "Natural logarithm of 2π.",
   "license": "Apache-2.0",
   "author": {
