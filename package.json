@@ -1,0 +1,42 @@
+{
+  "name": "@stdlib/constants-float64-ln-two-pi",
+  "version": "0.0.0",
+  "description": "Natural logarithm of 2π.",
+  "license": "Apache-2.0",
+  "type": "module",
+  "main": "./mod.js",
+  "homepage": "https://stdlib.io",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/stdlib-js/constants-float64-ln-two-pi.git"
+  },
+  "bugs": {
+    "url": "https://github.com/stdlib-js/stdlib/issues"
+  },
+  "keywords": [
+    "stdlib",
+    "stdmath",
+    "constant",
+    "const",
+    "mathematics",
+    "math",
+    "ln",
+    "ln2",
+    "math.ln2",
+    "natural",
+    "logarithm",
+    "log",
+    "ieee754",
+    "double",
+    "dbl",
+    "precision",
+    "floating-point",
+    "float64",
+    "pi",
+    "2pi"
+  ],
+  "funding": {
+    "type": "patreon",
+    "url": "https://www.patreon.com/athan"
+  }
+}
