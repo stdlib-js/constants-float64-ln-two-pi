@@ -24,32 +24,30 @@ limitations under the License.
 
 > [Natural logarithm][@stdlib/math/base/special/ln] of `2π`.
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/constants-float64-ln-two-pi
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
+-   If you are using Deno, visit the [`deno` branch][deno-url].
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
-To use in Observable,
-
 ```javascript
-LN_TWO_PI = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64-ln-two-pi@umd/bundle.js' )
-```
-
-To include the bundle in a webpage,
-
-```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64-ln-two-pi@umd/bundle.js"></script>
-```
-
-If no recognized module system is present, access bundle contents via the global scope:
-
-```html
-<script type="text/javascript">
-(function () {
-    window.LN_TWO_PI;
-})();
-</script>
+var LN_TWO_PI = require( '@stdlib/constants-float64-ln-two-pi' );
 ```
 
 #### LN_TWO_PI
@@ -73,21 +71,11 @@ var bool = ( LN_TWO_PI === 1.8378770664093456 );
 
 <!-- eslint no-undef: "error" -->
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-<body>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64-ln-two-pi@umd/bundle.js"></script>
-<script type="text/javascript">
-(function () {
+```javascript
+var LN_TWO_PI = require( '@stdlib/constants-float64-ln-two-pi' );
 
 console.log( LN_TWO_PI );
 // => 1.8378770664093456
-
-})();
-</script>
-</body>
-</html>
 ```
 
 </section>
@@ -173,14 +161,15 @@ Copyright &copy; 2016-2022. The Stdlib [Authors][stdlib-authors].
 [deno-url]: https://github.com/stdlib-js/constants-float64-ln-two-pi/tree/deno
 [umd-url]: https://github.com/stdlib-js/constants-float64-ln-two-pi/tree/umd
 [esm-url]: https://github.com/stdlib-js/constants-float64-ln-two-pi/tree/esm
+[branches-url]: https://github.com/stdlib-js/constants-float64-ln-two-pi/blob/main/branches.md
 
 [stdlib-license]: https://raw.githubusercontent.com/stdlib-js/constants-float64-ln-two-pi/main/LICENSE
 
-[@stdlib/math/base/special/ln]: https://github.com/stdlib-js/math-base-special-ln/tree/umd
+[@stdlib/math/base/special/ln]: https://github.com/stdlib-js/math-base-special-ln
 
 <!-- <related-links> -->
 
-[@stdlib/constants/float64/two-pi]: https://github.com/stdlib-js/constants-float64-two-pi/tree/umd
+[@stdlib/constants/float64/two-pi]: https://github.com/stdlib-js/constants-float64-two-pi
 
 <!-- </related-links> -->
 
