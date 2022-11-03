@@ -33,6 +33,11 @@ limitations under the License.
 To use in Observable,
 
 ```javascript
+LN_TWO_PI = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64-ln-two-pi@umd/browser.js' )
+```
+The previous example will load the latest bundled code from the umd branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/constants-float64-ln-two-pi/tags). For example,
+
+```javascript
 LN_TWO_PI = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64-ln-two-pi@v0.0.8-umd/browser.js' )
 ```
 
@@ -45,7 +50,7 @@ var LN_TWO_PI = require( 'path/to/vendor/umd/constants-float64-ln-two-pi/index.j
 To include the bundle in a webpage,
 
 ```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64-ln-two-pi@v0.0.8-umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64-ln-two-pi@umd/browser.js"></script>
 ```
 
 If no recognized module system is present, access bundle contents via the global scope:
@@ -83,7 +88,7 @@ var bool = ( LN_TWO_PI === 1.8378770664093456 );
 <!DOCTYPE html>
 <html lang="en">
 <body>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64-ln-two-pi@v0.0.8-umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64-ln-two-pi@umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
 
