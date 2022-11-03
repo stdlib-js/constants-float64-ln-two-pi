@@ -31,6 +31,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import LN_TWO_PI from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64-ln-two-pi@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/constants-float64-ln-two-pi/tags). For example,
+
+```javascript
 import LN_TWO_PI from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64-ln-two-pi@v0.0.8-esm/index.mjs';
 ```
 
@@ -61,7 +66,7 @@ var bool = ( LN_TWO_PI === 1.8378770664093456 );
 <body>
 <script type="module">
 
-import LN_TWO_PI from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64-ln-two-pi@v0.0.8-esm/index.mjs';
+import LN_TWO_PI from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64-ln-two-pi@esm/index.mjs';
 
 console.log( LN_TWO_PI );
 // => 1.8378770664093456
