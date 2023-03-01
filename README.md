@@ -144,7 +144,7 @@ Macro for the [natural logarithm][@stdlib/math/base/special/ln] of `2π`.
 
 ## See Also
 
--   <span class="package-name">[`@stdlib/constants/float64/two-pi`][@stdlib/constants/float64/two-pi]</span><span class="delimiter">: </span><span class="description">2π.</span>
+-   <span class="package-name">[`@stdlib/constants-float64/two-pi`][@stdlib/constants/float64/two-pi]</span><span class="delimiter">: </span><span class="description">2π.</span>
 
 </section>
 
