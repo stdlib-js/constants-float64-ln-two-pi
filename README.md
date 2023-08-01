@@ -24,30 +24,38 @@ limitations under the License.
 
 > [Natural logarithm][@stdlib/math/base/special/ln] of `2π`.
 
-<section class="installation">
 
-## Installation
-
-```bash
-npm install @stdlib/constants-float64-ln-two-pi
-```
-
-Alternatively,
-
--   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
--   If you are using Deno, visit the [`deno` branch][deno-url].
--   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
-
-The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
-
-</section>
 
 <section class="usage">
 
 ## Usage
 
+To use in Observable,
+
 ```javascript
-var LN_TWO_PI = require( '@stdlib/constants-float64-ln-two-pi' );
+LN_TWO_PI = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64-ln-two-pi@umd/browser.js' )
+```
+
+To vendor stdlib functionality and avoid installing dependency trees for Node.js, you can use the UMD server build:
+
+```javascript
+var LN_TWO_PI = require( 'path/to/vendor/umd/constants-float64-ln-two-pi/index.js' )
+```
+
+To include the bundle in a webpage,
+
+```html
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64-ln-two-pi@umd/browser.js"></script>
+```
+
+If no recognized module system is present, access bundle contents via the global scope:
+
+```html
+<script type="text/javascript">
+(function () {
+    window.LN_TWO_PI;
+})();
+</script>
 ```
 
 #### LN_TWO_PI
@@ -71,11 +79,21 @@ var bool = ( LN_TWO_PI === 1.8378770664093456 );
 
 <!-- eslint no-undef: "error" -->
 
-```javascript
-var LN_TWO_PI = require( '@stdlib/constants-float64-ln-two-pi' );
+```html
+<!DOCTYPE html>
+<html lang="en">
+<body>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64-ln-two-pi@umd/browser.js"></script>
+<script type="text/javascript">
+(function () {
 
 console.log( LN_TWO_PI );
 // => 1.8378770664093456
+
+})();
+</script>
+</body>
+</html>
 ```
 
 </section>
@@ -84,57 +102,7 @@ console.log( LN_TWO_PI );
 
 <!-- C interface documentation. -->
 
-* * *
 
-<section class="c">
-
-## C APIs
-
-<!-- Section to include introductory text. Make sure to keep an empty line after the intro `section` element and another before the `/section` close. -->
-
-<section class="intro">
-
-</section>
-
-<!-- /.intro -->
-
-<!-- C usage documentation. -->
-
-<section class="usage">
-
-### Usage
-
-```c
-#include "stdlib/constants/float64/ln_two_pi.h"
-```
-
-#### STDLIB_CONSTANT_FLOAT64_LN_TWO_PI
-
-Macro for the [natural logarithm][@stdlib/math/base/special/ln] of `2π`.
-
-</section>
-
-<!-- /.usage -->
-
-<!-- C API usage notes. Make sure to keep an empty line after the `section` element and another before the `/section` close. -->
-
-<section class="notes">
-
-</section>
-
-<!-- /.notes -->
-
-<!-- C API usage examples. -->
-
-<section class="examples">
-
-</section>
-
-<!-- /.examples -->
-
-</section>
-
-<!-- /.c -->
 
 <!-- Section for related `stdlib` packages. Do not manually edit this section, as it is automatically populated. -->
 
@@ -219,11 +187,11 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 
 [stdlib-license]: https://raw.githubusercontent.com/stdlib-js/constants-float64-ln-two-pi/main/LICENSE
 
-[@stdlib/math/base/special/ln]: https://github.com/stdlib-js/math-base-special-ln
+[@stdlib/math/base/special/ln]: https://github.com/stdlib-js/math-base-special-ln/tree/umd
 
 <!-- <related-links> -->
 
-[@stdlib/constants/float64/two-pi]: https://github.com/stdlib-js/constants-float64-two-pi
+[@stdlib/constants/float64/two-pi]: https://github.com/stdlib-js/constants-float64-two-pi/tree/umd
 
 <!-- </related-links> -->
 
