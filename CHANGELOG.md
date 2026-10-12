@@ -12,6 +12,7 @@
 
 <details>
 
+-   [`29c6c92`](https://github.com/stdlib-js/stdlib/commit/29c6c92b23eaba5dbcb2f6e2f54de47262ef9ff5) - **test:** migrate `constants/float64/ln-two-pi` to ULP-based assertions [(#15855)](https://github.com/stdlib-js/stdlib/pull/15855) _(by Philipp Burckhardt, Athan Reines)_
 -   [`39fe031`](https://github.com/stdlib-js/stdlib/commit/39fe0312c0f91bafc29f62de92b02a8a4f02645b) - **docs:** update descriptions [(#15207)](https://github.com/stdlib-js/stdlib/pull/15207) _(by Philipp Burckhardt)_
 
 </details>
@@ -24,8 +25,9 @@
 
 ### Contributors
 
-A total of 1 person contributed to this release. Thank you to this contributor:
+A total of 2 people contributed to this release. Thank you to the following contributors:
 
+-   Athan Reines
 -   Philipp Burckhardt
 
 </section>
